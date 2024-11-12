@@ -40,7 +40,11 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
+    "@stdlib/constants-float32-abs-mask": "^0.2.2",
+    "@stdlib/constants-float32-exponent-mask": "^0.2.2",
     "@stdlib/constants-float32-pinf": "^0.2.2",
+    "@stdlib/constants-float32-precision": "^0.2.2",
+    "@stdlib/math-base-napi-binary": "^0.3.0",
     "@stdlib/math-base-special-copysignf": "^0.2.2",
     "@stdlib/number-float32-base-from-word": "^0.2.2",
     "@stdlib/number-float32-base-to-word": "^0.2.2",
