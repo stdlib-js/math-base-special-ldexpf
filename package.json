@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-special-ldexpf",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Multiply a single-precision floating-point number by an integer power of two.",
   "license": "Apache-2.0",
   "author": {
@@ -44,12 +44,12 @@
     "@stdlib/constants-float32-exponent-mask": "^0.2.2",
     "@stdlib/constants-float32-pinf": "^0.2.2",
     "@stdlib/constants-float32-precision": "^0.2.2",
-    "@stdlib/math-base-napi-binary": "^0.3.0",
+    "@stdlib/math-base-napi-binary": "^0.3.1",
     "@stdlib/math-base-special-copysignf": "^0.2.2",
     "@stdlib/number-float32-base-from-word": "^0.2.2",
     "@stdlib/number-float32-base-to-word": "^0.2.2",
     "@stdlib/number-float64-base-to-float32": "^0.2.2",
-    "@stdlib/utils-library-manifest": "^0.2.2"
+    "@stdlib/utils-library-manifest": "^0.2.3"
   },
   "devDependencies": {
     "@stdlib/array-base-linspace": "^0.2.2",
