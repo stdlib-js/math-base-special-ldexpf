@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import ldexpf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-ldexpf@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-ldexpf/tags). For example,
+
+```javascript
 import ldexpf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-ldexpf@v0.1.0-deno/mod.js';
 ```
 
@@ -99,7 +104,7 @@ x = ldexpf( -Infinity, -118 );
 ```javascript
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@deno/mod.js';
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
-import ldexpf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-ldexpf@v0.1.0-deno/mod.js';
+import ldexpf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-ldexpf@deno/mod.js';
 
 var frac = linspace( 0.0, 100.0, 10 );
 var exp = discreteUniform( 100, 0, 10 );
