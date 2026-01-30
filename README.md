@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ldexpf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-ldexpf@esm/index.mjs';
+import ldexpf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-ldexpf@v0.1.0-esm/index.mjs';
 ```
 
 #### ldexpf( frac, exp )
@@ -104,7 +104,7 @@ x = ldexpf( -Infinity, -118 );
 
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@esm/index.mjs';
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import ldexpf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-ldexpf@esm/index.mjs';
+import ldexpf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-ldexpf@v0.1.0-esm/index.mjs';
 
 var frac = linspace( 0.0, 100.0, 10 );
 var exp = discreteUniform( 100, 0, 10 );
