@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-13)
+## Unreleased (2026-06-17)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`90354c5`](https://github.com/stdlib-js/stdlib/commit/90354c50aa09247632c6d662785fc3d5c25668ec) - **test:** migrate `math/base/special/ldexpf` to ULP-based testing [(#12789)](https://github.com/stdlib-js/stdlib/pull/12789) _(by Philipp Burckhardt)_
 -   [`8c2f1cf`](https://github.com/stdlib-js/stdlib/commit/8c2f1cf76b36300b8674f4fc0e4d020dab2b0f55) - **bench:** refactor to use string interpolation in `math/base/special` [(#11389)](https://github.com/stdlib-js/stdlib/pull/11389) _(by Karan Anand)_
 
 </details>
@@ -24,9 +25,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Karan Anand
+-   Philipp Burckhardt
 
 </section>
 
